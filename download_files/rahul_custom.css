@@ -1,0 +1,243 @@
+.page-header .navbar .navbar-nav>li>a {
+    color: rgba(221, 221, 221, 0.86) !important;
+    padding: 22px 25px !important;
+}
+.page-header .navbar .navbar-nav li.selected>a {
+    color: rgba(0, 0, 0, 0.85) !important;
+}
+.page-header .navbar .navbar-nav li:hover>a {
+    color: white !important;
+}
+.page-header .navbar .navbar-nav li.selected:hover>a {
+    color: black !important;
+}
+
+
+
+.page-header .navbar .navbar-nav .dropdown-menu {
+    margin: 0px 2px !important;
+}
+.page-header .navbar .navbar-nav .dropdown-menu>li {
+        background-color: #32c5d2 !important;
+        width: 12.228%;
+        text-align: center; 
+}
+.page-header .navbar .navbar-nav .dropdown-menu>li>a {
+    font-size: 15px !important;
+    padding: 10px 0px !important;
+    color: white !important;
+    font-weight: 600;
+}
+.page-header .navbar .navbar-nav .dropdown-menu>li:hover {
+    background-color: #f2f2f2 !important;
+}
+.page-header .navbar .navbar-nav .dropdown-menu>li:hover a{
+    color: black !important;
+}
+.page-header .navbar .navbar-nav .dropdown-menu>li:hover i{
+    color: black !important;
+}
+.page-header .navbar .navbar-nav .dropdown-menu li.active:hover {
+    background-color: #32c5d2 !important;
+}
+.page-header .navbar .navbar-nav .dropdown-menu li.active:hover a{
+    color: white !important;
+}
+.page-header .navbar .navbar-nav .dropdown-menu li.active:hover i{
+    color: white !important;
+}
+
+
+
+/*triangle in submenu start*/
+.active {
+    position: relative;
+}
+.submenu-selected {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin: 0 auto; 
+    border-bottom: 9px solid white;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+/*triangle in submenu end*/
+
+
+
+
+
+
+.border_all {
+    border: 1px solid #32c5d2;
+}
+.center_box {
+    border: 2px solid rgba(191, 191, 191, 0.4);
+    text-align: center;
+    padding: 75px 0;
+    margin: 110px 0;
+    border-radius: 10px !important;
+}
+.center_box h1 {
+    font-size: 30px !important;
+    color: rgba(102, 102, 102, 0.56);
+    font-weight: 600;
+}
+.center_box a {
+    font-size: 30px !important;
+    margin-top: 25px;
+}
+
+
+
+
+
+.delete_box {
+    margin-top: 35px;
+    text-align: center;
+}
+.delete_box h4 {
+    font-size: 20px;
+    color: rgb(128, 128, 128);
+    font-weight: 600;
+}
+
+
+.dropdown-menu  li a i {
+    color: white !important;
+}
+
+div.page-sidebar div.row div.btn_box {
+    margin-top: 8px;
+}
+
+
+div.page-content-container div.portlet.light.bordered {
+    border: 1px solid #009dc7!important;
+}
+
+a.eq_btn {
+    margin-left: 8px !important;
+}
+
+.border_special {
+    position: absolute;
+    height: 1px;
+    width: 96.5%;
+    top: 110%;
+    left: 0px;
+    background-color: #009dc7;
+}
+
+.form .form-body, .portlet-form .form-body {
+    padding-top: 40px !important;
+}
+
+div.page-content-container div.page-content-col div.mar_btm {
+    margin-bottom: 0px !important;
+}
+
+
+.pagination>.active>a, 
+.pagination>.active>a:focus, 
+.pagination>.active>a:hover, 
+.pagination>.active>span, 
+.pagination>.active>span:focus, 
+.pagination>.active>span:hover {
+    background-color: #009dc7 !important;
+    border-color: #009dc7 !important;
+}
+
+textarea {
+    resize: vertical;
+}
+
+form.form-horizontal label.control-label,
+form.form-horizontal label.control-label {
+    color: #009dc7 ;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+form.form-horizontal label.mt-radio {
+    color: #009dc7 !important;
+    font-weight: 600;
+    font-size: inherit;
+}
+
+
+.dispatch_product_info {
+    /*border: 1px solid rgba(0, 157, 199, 0.48);
+    margin: 0px 15px 0px 15px;
+    border-radius: 10px !important;
+    padding-top: 12px;*/
+    margin: 0px 10px 0px 10px;
+}
+.product_info_title {
+    padding: 15px;
+} 
+
+
+.product_add, 
+.product_remove {
+    padding: 10px 0px 30px 0px;
+}
+
+
+
+
+
+
+
+
+
+.add_data_form {
+    margin-bottom: 65px;
+}
+.add_data_bottom_form {
+    margin-top: 50px;
+}
+.left_css {
+    padding-left: 0px;
+}
+.right_css {
+    padding-right: 0px;
+}
+a.eq_btn {
+    font-size: 18px !important;
+}
+
+
+
+ol.instruction_box {
+    font-size: 15px;
+    margin-top: 8%;
+}
+
+ol.instruction_box li {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+
+
+
+div.form-actions ul li:nth-child(1) {
+    padding-top: 10px;
+}
+
+div.form-actions ul li {
+    padding: 5px 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+div.form-actions b {
+    padding-left: 15px;
+    color: #009dc7;
+}
+
+
+.btn-group {
+    margin-left: 15px;	
+}

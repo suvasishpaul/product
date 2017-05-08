@@ -1,0 +1,216 @@
+.page-content-row .page-sidebar {
+    width: 400px;
+}
+
+a.eq_btn {
+    width: 30%;
+    padding: 30px 0 !important;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: white !important;
+    color: #2bb8c4 !important;
+}
+
+a.eq_btn:nth-child(1) {
+    margin-left:5px;
+}
+
+.active_blue_btn {
+    background-color: #ffffff ;
+    color : #1fa6d1 ;
+}
+
+#item_add_btn:hover ,
+#item_edit_btn:hover ,
+#item_dlt_btn:hover,
+#item_add_btn:active ,
+#item_edit_btn:active ,
+#item_dlt_btn:active,
+#item_add_btn:focus ,
+#item_edit_btn:focus ,
+#item_dlt_btn:focus
+
+{
+    /*background-color: #ffffff ;
+    color : #1fa6d1 ;*/
+    /*background-color: #2bb8c4 !important;
+    color : white !important;*/
+} 
+
+
+a.active_blue_btn {
+    position:relative;
+}
+
+a.active_blue_btn div{
+    background-color:#2bb8c4 ;
+    height:15px;
+    width:15px;
+    border-radius:150px !important;
+    position:absolute;
+    top:8px;
+    left:8px;
+
+}
+
+.instruction {
+     position: relative;
+     width: 250px;
+     top: 14px;
+     padding: 15px;
+     background-color: white;
+     color: #32c5d2;
+     margin-left:10px;
+     margin-top:5px;
+     border-radius:5px !important;
+     -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+    border:1px solid #32c5d2;
+   
+    z-index: 99999999999999;
+}
+
+/* Scroll down indicator (bouncing) */
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-30px); }
+  60% {
+    -webkit-transform: translateY(-15px); } }
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0); }
+  40% {
+    -moz-transform: translateY(-30px); }
+  60% {
+    -moz-transform: translateY(-15px); } }
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -o-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  60% {
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+    transform: translateY(-15px); } }
+
+.instruction:after {
+    /* content: "";
+     position: absolute;
+     border-style: solid;
+     border-color: #32c5d2 transparent;
+     top: -15px;
+     right: 180px;
+     bottom: auto;
+     left: auto;
+     border-width: 0 15px 15px; */
+     
+     content: "";
+     position: absolute;
+     top: -16px;
+     right: 180px;
+     bottom: auto;
+     left: auto;
+     background: white;
+     height: 30px;
+     width: 30px;
+     border: 1px solid #32c5d2;
+     border-width: 1px 0px 0px 1px;
+     transform: rotate(45deg);
+}
+
+form.edit_form {
+  display : none;
+}
+
+div.edit_instruction,
+div.delete_instruction {
+  margin-left:120px;
+  margin-top:130px;
+}
+
+.edit_instruction:after,
+.delete_instruction:after {
+    /*top: 16px;
+    right: -50px;
+    bottom: auto;
+    left: auto;
+    border-width: 10px 0 10px 50px;
+    border-color: transparent #32c5d2;
+    z-index : 999999999999999999;*/
+    top: 22px;
+    right: -42px;
+    bottom: auto;
+    left: auto;
+    border-width: 10px 0 10px 50px;
+    border-color: transparent #32c5d2;
+    z-index : 999999999999999999;
+    height: 19px;
+    width: 78px;
+    border: 1px solid #32c5d2;
+    border-width: 1px 0px 0px 5px;
+    transform: rotate(175deg) skew(76deg);
+    z-index: -94999999999;
+}
+
+div.delete_box {
+    display: none;
+}
+
+div.success_message {
+    position: fixed;
+    bottom: 0;
+    right: 22px;
+    z-index: 1111;
+}
+
+div.validation_error {
+    position: fixed;
+    bottom: 0;
+    right: 22px;
+    z-index: 1111;
+}
+
+div.validation_error_each {
+    color: #a01717;
+    margin-bottom: 3px;
+}
+
+span.radio_checked:after {
+    display: block;
+    left: 5px;
+    top: 5px;
+    height: 6px;
+    width: 6px;
+    border-radius: 100%!important;
+    background: #888;
+    content: '';
+    position: absolute;
+}
+
+div.rk_toggler {
+    width: 400px;
+    padding:15px;
+    border: 1px solid #009dc7;
+    text-align:center;
+}
+
+.bootstrap-switch-primary {
+    background-color : #009dc7 !important;
+}
+
+
+
+
+
